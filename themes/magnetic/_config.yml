@@ -1,8 +1,8 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  首页: /
+  作品: /archives
+  关于: /about
 
 # Default post title
 default_post_title: Untitled
