@@ -249,47 +249,9 @@ h5, h6          { font-weight: bolder }
         display: block;
         width: 30px;
         height: 30px;
-        background: url('../img/sm.png') no-repeat;
-        background-position: 0 0;
+	color: #666;
     }
 
-
-    header ul.social li a:hover{
-        background: url('../img/sm_hover.png') no-repeat;
-    }
-
-
-
-    header ul.social li a.fb,
-    header ul.social li a.fb:hover{
-        background-position: 0 0;
-    }
-
-
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
-        background-position: -31px 0;
-    }
-
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
-        background-position: -62px 0;
-    }
-
-    header ul.social li a.twitter,
-    header ul.social li a.twitter:hover{
-        background-position: -93px 0;
-    }
-
-    header ul.social li a.dribble,
-    header ul.social li a.dribble:hover{
-        background-position: -124px 0;
-    }
-
-    header ul.social li a.rss,
-    header ul.social li a.rss:hover{
-        background-position: -155px 0;
-    }
 
     header .rights p{
         color: #454545;
@@ -316,14 +278,6 @@ h5, h6          { font-weight: bolder }
     width: 40px;
     height: 40px;
     cursor: pointer;
-    background: url('../img/men_icons.png') no-repeat;
-}
-
-#menu_icon{    
-    background-position: 0 0;
-}
-.close_menu{
-    background-position: -41px 0!important;
 }
 
 /*  Main  */
@@ -486,26 +440,9 @@ h5, h6          { font-weight: bolder }
     display: block;
     width: 40px;
     height: 40px;
-    background: url('../img/p_navigation.png') no-repeat;
-    background-position: 0 0;
 }
 
-.work_nav a.previous{
-    background-position: 0 0;
-}
-
-.work_nav a.previous.disabled{
-    cursor: no-drop;
-}
-
-.work_nav a.grid{
-    background-position: -41px 0;
-}
-
-.work_nav a.next{
-    background-position: -82px 0;
-}
-
+.work_nav a.previous.disabled,
 .work_nav a.next.disabled{
     cursor: no-drop;
 }
@@ -677,7 +614,7 @@ h5, h6          { font-weight: bolder }
     header #menu_icon,
     header .close_menu{
         float: right;
-        margin: 30px 30px 0 0;
+        margin: 40px 30px 0 0;
     }
     
     header nav{

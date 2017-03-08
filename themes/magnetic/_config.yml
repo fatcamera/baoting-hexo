@@ -27,9 +27,7 @@ comments:
 google_analytics:
 
 # Social Accounts
-twitter_url:
-facebook_url: https://www.facebook.com/
-behance_url: https://www.behance.net/
-googleplus_url: https://plus.google.com/+Pixelhint/posts
-dribble_url: https://dribbble.com/pixelhint
-rss_url:
+weixin_url: /
+weibo_url: http://weibo.com/imbaobaojia
+linkedin_url: https://www.linkedin.com/in/%E5%A9%B7-%E5%8C%85-81a5ba139/
+rss_url: /rss2.xml
