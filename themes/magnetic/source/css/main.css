@@ -428,33 +428,6 @@ h5, h6          { font-weight: bolder }
     border-top: 1px solid #bfbbbb;
 }
 
-.main .gallery-container{
-    width: 100%;
-}
-
-/* Clearfix */
-.main .gallery-container:after {
-    content: " ";
-    visibility: hidden;
-    display: block;
-    height: 50px;
-    clear: both;
-}
-
-.main .gallery-container .picture-container{
-    width: 150px;
-    float: left;
-    margin-right: 30px;
-}
-
-.main .gallery-container .picture-container .img-thumbnail{
-    padding: 4px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
 .main .tags a, .main .tags a:visited, .main .tags a:active{
     display: inline-block;
     background: #fff;
