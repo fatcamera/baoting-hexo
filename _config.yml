@@ -69,6 +69,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com-imbaoting:imbaoting/imbaoting.github.io.git
+  repo: https://fatcamera@git.duapp.com/appid7p8qjbsjpz
   branch: master
 
