@@ -249,9 +249,12 @@ h5, h6          { font-weight: bolder }
         display: block;
         width: 30px;
         height: 30px;
-	color: #666;
+        color: #969595;
     }
 
+    header ul.social li a:hover{
+        color: #454545;
+    }
 
     header .rights p{
         color: #454545;
@@ -417,34 +420,31 @@ h5, h6          { font-weight: bolder }
 }
 
 .work_nav{
+    overflow: hidden;
     display: block;
-    width: 100%;
-}
-
-.work_nav .btn{
-    float: right;
-}
-
-.work_nav ul{
-    list-style: none;
-}
-
-.work_nav ul li{
-    display: block;
-    float: left;
-    margin: 0 0 1px 1px;
-    position: relative;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    white-space: nowrap;
+    border-top: 1px solid #eee;
 }
 
 .work_nav a{
-    display: block;
-    width: 40px;
-    height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #454545;
 }
 
-.work_nav a.previous.disabled,
-.work_nav a.next.disabled{
-    cursor: no-drop;
+.work_nav a:hover{
+    color: #969595;
+}
+
+.work_nav a.previous{
+    float: left;
+}
+
+.work_nav a.next{
+    float: right;
 }
 
 .top .title{
@@ -614,7 +614,7 @@ h5, h6          { font-weight: bolder }
     header #menu_icon,
     header .close_menu{
         float: right;
-        margin: 40px 30px 0 0;
+        margin: 42px 30px 0 0;
     }
     
     header nav{
@@ -648,6 +648,12 @@ h5, h6          { font-weight: bolder }
     .close_menu,
     .show_menu{
         display: block;
+    }
+    #menu_icon, .fa{
+        color: #454545;
+    }
+    #menu_icon, .close_menu .fa{
+        color: #969595;
     }
     .show_menu{
         display: block;

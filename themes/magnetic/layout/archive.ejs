@@ -7,7 +7,7 @@
                 postList = item.posts.slice();
             }
         });
-        title = page.category;
+        title = __(page.category);
     }
     else if (page.tag) {
         site.tags.forEach(function(item) {
@@ -15,7 +15,7 @@
                 postList = item.posts;
             }
         });
-        title = page.tag;
+        title = __(page.tag);
     } else {
         postList = site.posts;
     }

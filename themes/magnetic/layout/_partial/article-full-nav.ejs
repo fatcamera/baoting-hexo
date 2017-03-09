@@ -1,45 +1,12 @@
-<% var titlePrevious, titleNext %>
-
 <div class="work_nav">
-
-    <ul class="btn clearfix">
-        <% if (item.prev) {
-            titlePrevious = item.prev.title || theme.default_post_title;
-            titlePrevious = titlePrevious.length > 40 ? (titlePrevious.substring(0,40) + "...") : titlePrevious;
-        %>
-        <li>
-	  <a href="<%- url_for(item.prev.path) %>" class="previous" data-title="<%= titlePrevious %>">
-	    <span class="fa fa-chevron-left fa-2x"></span>
-	  </a>
-	</li>
-        <% } else { %>
-        <li>
-	  <a class="previous disabled">
-	    <span class="fa fa-chevron-left fa-2x"></span>
-	  </a>
-	</li>
-        <% } %>
-        <li>
-	  <a href="<%- config.root %>" class="grid" data-title="目录">
-	    <span class="fa fa-th fa-2x"></span>
-	  </a>
-	</li>
-        <% if (item.next) {
-            titleNext = item.next.title || theme.default_post_title;
-            titleNext = titleNext.length > 17 ? (titleNext.substring(0,17) + "...") : titleNext;
-        %>
-        <li>
-	  <a href="<%- url_for(item.next.path) %>" class="next" data-title="<%= titleNext %>">
-	    <span class="fa fa-chevron-right fa-2x"></span>
-	  </a>
-	</li>
-        <% } else { %>
-        <li>
-	  <a class="next disabled">
-	    <span class="fa fa-thevron-right fa-2x"></span>
-	  </a>
-	</li>
-        <% } %>
-    </ul>
-
+<% if (item.prev) { %>
+  <a href="<%- url_for(item.prev.path) %>" class="previous">
+    <span class="fa fa-angle-left"></span> <%- item.prev.title %>
+  </a>
+<% } %>
+<% if (item.next) { %>
+  <a href="<%- url_for(item.next.path) %>" class="next">
+    <%- item.next.title %> <span class="fa fa-angle-right"></span>
+  </a>
+<% } %>
 </div><!-- end work_nav -->

@@ -1,8 +1,11 @@
 
 <%
 var tags = [];
+item.categories.forEach(function(cate){
+    tags.push('<a href="' + config.root + cate.path + '">' + __(cate.name) + '</a>');
+});
 item.tags.forEach(function(tag){
-    tags.push('<a href="' + config.root + tag.path + '">' + tag.name + '</a>');
+    tags.push('<a href="' + config.root + tag.path + '">' + __(tag.name) + '</a>');
 });
 %>
 
