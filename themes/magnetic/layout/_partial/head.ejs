@@ -14,16 +14,7 @@
     <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
 <% } -%>
     <meta name="author" content="<%= config.author %>">
-    <meta name="keywords" content="插画师,设计师,平面设计,美术教育,儿童绘本,动漫">
-<% if (page.title){ -%>
-    <meta property="og:title" content="<%= page.title %>"/>
-<% } -%>
-    <meta property="og:site_name" content="<%= config.title %>"/>
-<% if(page.cover) { -%>
-    <meta property="og:image" content="<%= page.cover %>" />
-<% } else { -%>
-    <meta property="og:image" content="<%= theme.cover %>"/>
-<% } -%>
+    <meta name="keywords" content="<%= config.keywords %>">
 <%
 var title = [];
 if (page.current > 1) title.push(__('page', page.current));
