@@ -1,25 +1,22 @@
 <%
-    var title;
-    if (page.category) {
-        title = __(page.category);
-    } else if (page.tag) {
-        title = __(page.tag);
-    }
-%>
-
+var title;
+if (page.category) {
+    title = __(page.category);
+} else if (page.tag) {
+    title = __(page.tag);
+}
+-%>
 <section class="main clearfix">
     <section class="wrapper">
         <div class="content archives">
-            <% if(title) { %>
-                <div class="archive-title"><%- title %></div>
-            <% } %>
+        <% if(title) { -%>
+            <div class="archive-title"><%- title %></div>
+        <% } -%>
             <ul class="archive-list">
-                <% page.posts.forEach(function(item){ %>
-                    <%- partial('_partial/article-archive', {item: item}) %>
-                <% }); %>
+            <% page.posts.forEach(function(item){ -%>
+                <%- partial('_partial/article-archive', {item: item}) %>
+            <% }); -%>
             </ul>
-        </div><!-- end content -->
+        </div>
     </section>
-</section><!-- end main -->
-
-
+</section>

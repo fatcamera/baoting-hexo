@@ -1,12 +1,12 @@
 <div class="work_nav">
-<% if (item.prev) { %>
-  <a href="<%- url_for(item.prev.path) %>" class="previous">
-    <span class="fa fa-angle-left"></span> <%- item.prev.title %>
-  </a>
-<% } %>
-<% if (item.next) { %>
-  <a href="<%- url_for(item.next.path) %>" class="next">
-    <%- item.next.title %> <span class="fa fa-angle-right"></span>
-  </a>
-<% } %>
-</div><!-- end work_nav -->
+<% if (item.prev) { -%>
+    <a href="<%- url_for(item.prev.path) %>" class="previous">
+        <span class="fa fa-angle-left"></span> <%- item.prev.title %>
+    </a>
+<% } -%>
+<% if (item.next) { -%>
+    <a href="<%- url_for(item.next.path) %>" class="next">
+        <%- item.next.title %> <span class="fa fa-angle-right"></span>
+    </a>
+<% } -%>
+</div>
