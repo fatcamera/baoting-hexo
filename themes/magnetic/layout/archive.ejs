@@ -1,23 +1,9 @@
 <%
     var title;
-    var postList = [];
     if (page.category) {
-        site.categories.forEach(function(item) {
-            if(item.name === page.category) {
-                postList = item.posts.slice();
-            }
-        });
         title = __(page.category);
-    }
-    else if (page.tag) {
-        site.tags.forEach(function(item) {
-            if(item.name === page.tag) {
-                postList = item.posts;
-            }
-        });
+    } else if (page.tag) {
         title = __(page.tag);
-    } else {
-        postList = site.posts;
     }
 %>
 
@@ -28,7 +14,7 @@
                 <div class="archive-title"><%- title %></div>
             <% } %>
             <ul class="archive-list">
-                <% postList.each(function(item){ %>
+                <% page.posts.forEach(function(item){ %>
                     <%- partial('_partial/article-archive', {item: item}) %>
                 <% }); %>
             </ul>
