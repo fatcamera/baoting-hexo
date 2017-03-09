@@ -65,6 +65,13 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: magnetic
 
+# Archive generator
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
+
 ## Feed
 feed:
   type: rss2
