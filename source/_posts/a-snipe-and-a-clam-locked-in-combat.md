@@ -2,6 +2,7 @@
 title: 鹬蚌相争
 date: 2017-03-05 16:22:45
 cover_index: http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic01-500x500.jpg
+cover_detail: http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic-ring2-1300x500.jpg
 
 categories:
 - 绘本
@@ -9,3 +10,9 @@ categories:
 tags:
 - 丙烯
 ---
+
+![鹬蚌相争01](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic01-960.jpg)
+
+![鹬蚌相争02](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic02-960.jpg)
+
+![鹬蚌相争03](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic03-960.jpg)
