@@ -2,6 +2,7 @@
 title: 找我
 date: 2017-03-9 13:40:23
 cover_index: http://fatcamera.b0.upaiyun.com/baotingart/find-me/fm11-500x500.jpg
+cover_detail: http://fatcamera.b0.upaiyun.com/baotingart/find-me/fm09-1300x500.jpg
 
 categories:
 - 绘本
