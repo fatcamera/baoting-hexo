@@ -5,10 +5,10 @@ cover_index: http://fatcamera.b0.upaiyun.com/baotingart/2014/12/zw-11-180x180.jp
 cover_detail: http://fatcamera.b0.upaiyun.com/baotingart/2014/12/zw-09.jpg
 
 categories:
-- picture-book
+- 绘本
 
 tags:
-- color-lead
+- 彩铅
 ---
 
 ![找我-cover](http://fatcamera.b0.upaiyun.com/baotingart/2014/12/zw-cover.jpg)

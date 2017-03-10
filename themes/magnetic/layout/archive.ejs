@@ -1,9 +1,11 @@
 <%
 var title;
 if (page.category) {
-    title = __(page.category);
+    title = page.category;
 } else if (page.tag) {
-    title = __(page.tag);
+    title = page.tag;
+} else {
+    title = __("archive_a");
 }
 -%>
 <section class="main clearfix">

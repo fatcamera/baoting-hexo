@@ -45,9 +45,15 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: 其它
 category_map:
+  其它: uncategorized
+  绘本: picture-book
+  插画: painting
 tag_map:
+  丙烯: acrylic-paint 
+  彩铅: color-lead
+  水彩: watercolor
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

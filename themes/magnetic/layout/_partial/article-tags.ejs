@@ -1,12 +1,8 @@
-<%
-var tags = [];
-item.categories.forEach(function(cate){
-    tags.push('<a href="' + config.root + cate.path + '">' + __(cate.name) + '</a>');
-});
-item.tags.forEach(function(tag){
-    tags.push('<a href="' + config.root + tag.path + '">' + __(tag.name) + '</a>');
-});
--%>
 <div class="tags">
-    <%- tags.join(' ') %>
+<% item.categories.forEach(function(cate){ -%>
+    <a href="<%- url_for(cate.path) %>"><%- cate.name %></a>
+<% }); -%>
+<% item.tags.forEach(function(tag){ -%>
+    <a href="<%- url_for(tag.path) %>"><%- tag.name %></a>
+<% }); -%>
 </div>
