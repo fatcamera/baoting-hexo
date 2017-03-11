@@ -1,8 +1,8 @@
 # Header
 menu:
   首页: /
-  目录: /archives
-  关于: /about
+  目录: /archives/
+  关于: /about/
 
 # Default post cover index page
 default_cover_index: "http://placehold.it/450x450"
