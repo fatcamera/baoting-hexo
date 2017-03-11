@@ -1,16 +1,16 @@
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta http-equiv="Cache-Control" content="no-transform" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 <% if (page.description){ -%>
-    <meta name="description" content="<%= page.description %>">
+    <meta name="description" content="<%= page.description %>" />
 <% } else if (config.description){ -%>
-    <meta name="description" content="<%= config.description %>">
+    <meta name="description" content="<%= config.description %>" />
 <% } -%>
-    <meta name="author" content="<%= config.author %>">
-    <meta name="keywords" content="<%= config.keywords %>">
+    <meta name="author" content="<%= config.author %>" />
+    <meta name="keywords" content="<%= config.keywords %>" />
 <%
 var title = [];
 if (page.current > 1) title.push(__('page', page.current));
@@ -25,12 +25,14 @@ title.push(config.title);
 -%>
     <title><%= title.join(' - ') %></title>
     <link rel="alternate" type="application/rss+xml" title="<%- config.title %>" href="<%- theme.rss_url %>" />
-    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <%- css('css/main.css') %>
+    <link rel="shortcut icon" href="http://fatcamera.b0.upaiyun.com/baotingart/static/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://fatcamera.b0.upaiyun.com/baotingart/static/appicon-192x192.png" />
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <%- js('js/main.js') %>
+    <script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
     <!--[if lt IE 9]>
-        <script src="//cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
-        <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <script src="//cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js" type="text/javascript" charset="utf-8"></script>
     <![endif]-->
 </head>
