@@ -1,19 +1,8 @@
-# Magnetic Blog Hexo
-
-![](http://www.codeblocq.com/img/hexo-theme-thumbnail/Magnetic.png)
-
-Hexo implementation of the free [HTML5 Magnetic Template](http://pixelhint.com/magnetic-free-html5-responsive-photography-website-template/)
-
-Magnetic is a photography/design portfolio oriented, responsive theme. [Demo here](http://www.codeblocq.com/assets/projects/hexo-theme-magnetic/).
-
 ## Features Overview
 
-- Disqus and Facebook comments
-- Google Analytics
 - Cover image for posts and pages
 - Tags Support
 - Responsive Images
-- Image Gallery
 - Social Accounts configuration
 - Pagination
 
@@ -24,7 +13,6 @@ Magnetic is a photography/design portfolio oriented, responsive theme. [Demo her
 
 ## External libraries used
 
-- [FeatherLight.js](http://noelboss.github.io/featherlight/) (Gallery)
 - [jQuery](https://jquery.com/)
 
 ## Installation
@@ -34,15 +22,6 @@ $ git clone https://github.com/klugjo/hexo-theme-magnetic themes/magnetic
 ```
 
 Then update your blog's main `_config.yml` to set the theme to `magnetic`:
-
-i.e:
-
-```
-# Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
-theme: magnetic
-```
 
 ## Theme Configuration
 
@@ -61,15 +40,6 @@ menu:
 
 The object key is the label and the value is the path.
 
-### Default post title
-
-The default post title (used when no title is specified) is configured in the theme's `_config.yml`.
-
-```
-# Default post title
-default_post_title: Untitled
-```
-
 ### Default index page cover image
 
 You can specify a default thumbnail for posts on the index page (Home page). This image will be used if you forget to specify an image in the post's front matter.
@@ -83,33 +53,8 @@ default_cover_index: "http://placehold.it/450x450"
 
 You can specify a default thumbnail for posts/pages on the post/page page (Detail Page). This image will be used if you forget to specify an image in the post's front matter.
 
-# Default post cover index page
+### Default post cover index page
 default_cover_detail: "http://placehold.it/1300x500"
-
-### Comments
-
-The comments provider is specified in the theme's `_config.yml`. If you specify both a `disqus_shortname` and a `facebook.appid` there will be 2 sets of comment per post. So choose one.
-
-```
-# Comments. Choose one by filling up the information
-comments:
-  # Disqus comments
-  disqus_shortname: klugjotest
-  # Facebook comments
-  facebook:
-    appid: 123456789012345
-    comment_count: 5
-    comment_colorscheme: light
-```
-
-### Google Analytics
-
-The Google Analytics Tracking ID is configured in the theme's `_config.yml`.
-
-```
-# Google Analytics Tracking ID
-google_analytics:
-```
 
 ### Social Account
 
@@ -146,11 +91,3 @@ Use `cover_detail` to specify an image that will be used for that post on the De
 ```
 cover_detail: /assets/hero_image.jpg
 ```
-
-## Creator
-
-This theme was created by [Pixel Hint](http://pixelhint.com/) and adapted for Hexo by [Jonathan Klughertz](http://www.codeblocq.com/).
-
-## Bugs
-
-If you have a question, feature request or a bug you need me to fix, please [click here](https://github.com/klugjo/hexo-theme-magnetic/issues/new) to file an issue.
