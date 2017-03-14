@@ -3,6 +3,7 @@
 
 ## 创建图标
 python c:/Python27/Scripts/icon-font-to-png --css css/font-awesome.css --ttf fonts/fontawesome-webfont.ttf  --size 64 paint-brush
+
 参见[Icon Font to PNG](https://github.com/Pythonity/icon-font-to-png)
 
 ## 图像处理
