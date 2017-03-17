@@ -11,9 +11,9 @@ tags:
 - 彩铅
 ---
 
-![拔苗助长01](http://fatcamera.b0.upaiyun.com/baotingart/spoil-things-by-excessive-enthusiasm/stbee01-960.jpg)
+![烈日下，农夫大壮在辛勤的插秧，希望今年能有个好收成](http://fatcamera.b0.upaiyun.com/baotingart/spoil-things-by-excessive-enthusiasm/stbee01-960.jpg)
 
-![拔苗助长02](http://fatcamera.b0.upaiyun.com/baotingart/spoil-things-by-excessive-enthusiasm/stbee02-960.jpg)
+![干完一天的农活后，大壮满意的看着小秧苗，心里祈祷着：请一定要快快长大呀！](http://fatcamera.b0.upaiyun.com/baotingart/spoil-things-by-excessive-enthusiasm/stbee02-960.jpg)
 
-![拔苗助长03](http://fatcamera.b0.upaiyun.com/baotingart/spoil-things-by-excessive-enthusiasm/stbee03-960.jpg)
+![可是不知道为什么，他家的秧苗就是没有邻居家的高](http://fatcamera.b0.upaiyun.com/baotingart/spoil-things-by-excessive-enthusiasm/stbee03-960.jpg)
 

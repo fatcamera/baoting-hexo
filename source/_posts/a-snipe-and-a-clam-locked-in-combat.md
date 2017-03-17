@@ -11,8 +11,8 @@ tags:
 - 丙烯
 ---
 
-![鹬蚌相争01](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic01-960.jpg)
+![有一只鹬经过长途的飞行，又累又饿，真希望能赶紧填饱肚子](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic01-960.jpg)
 
-![鹬蚌相争02](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic02-960.jpg)
+![她机灵地在沙滩上搜寻着，运气不赖，终于发现了猎物](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic02-960.jpg)
 
-![鹬蚌相争03](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic03-960.jpg)
+![原来是一只正在美美地晒太阳的大河蚌](http://fatcamera.b0.upaiyun.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic03-960.jpg)
