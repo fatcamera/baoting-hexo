@@ -11,8 +11,12 @@
 <% } -%>
     <meta name="author" content="<%= config.author %>" />
     <meta name="keywords" content="<%= config.keywords %>" />
-    <meta name="baidu-site-verification" content="DfXkdwNU9J" />
-    <meta name="google-site-verification" content="LzN7u6ht_04hkiV6sqRef71w7tiLMtBkqiB9nKuBZRw" />
+<% if (theme.baidu_site_verification){ -%>
+    <meta name="baidu-site-verification" content="<%= theme.baidu_site_verification %>" />
+<% } -%>
+<% if (theme.google_site_verification){ -%>
+    <meta name="google-site-verification" content="<%= theme.google_site_verification %>" />
+<% } -%>
 <%
 var title = [];
 if (page.current > 1) title.push(__('page', page.current));
@@ -26,24 +30,30 @@ if (page.archive) {
 title.push(config.title);
 -%>
     <title><%= title.join(' - ') %></title>
-    <link rel="alternate" type="application/rss+xml" title="<%- config.title %>" href="<%- theme.rss_url %>" />
-    <link rel="shortcut icon" href="http://cdn.baotingart.com/baotingart/static/favicon.ico" />
-    <link rel="icon" sizes="192x192" href="http://cdn.baotingart.com/baotingart/static/appicon-192x192.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="http://cdn.baotingart.com/baotingart/static/appicon-192x192.png" />
-    <link rel="apple-touch-icon-precomposed" href="http://cdn.baotingart.com/baotingart/static/appicon-192x192.png" />
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/css/main.css?v=1.0.0" />
     <!--[if lt IE 9]>
         <script src="//cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js" type="text/javascript" charset="utf-8"></script>
     <![endif]-->
+<% if (theme.favicon){ -%>
+    <link rel="shortcut icon" href="<%= theme.favicon %>" />
+<% } -%>
+<% if (theme.appicon){ -%>
+    <link rel="icon" sizes="192x192" href="<%= theme.appicon %>" />
+    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="<%= theme.appicon %>" />
+    <link rel="apple-touch-icon-precomposed" href="<%= theme.appicon %>" />
+<% } -%>
+    <link rel="alternate" type="application/rss+xml" title="<%- config.title %>" href="<%= theme.rss_url %>" />
+<% if (theme.baidu_tongji){ -%>
     <script>
         var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?3335afbcaebac61ab8c10f377a0928b5";
+            hm.src = "https://hm.baidu.com/hm.js?<%= theme.baidu_tongji %>";
             var s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
+<% } -%>
 </head>
