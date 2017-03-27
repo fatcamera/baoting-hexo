@@ -1,6 +1,7 @@
 ---
 title: 拔苗助长
 date: 2017-03-18 16:22:06
+comments: false
 cover_index: http://cdn.baotingart.com/baotingart/spoil-things-by-excessive-enthusiasm/stbee06-500x500.jpg
 cover_detail: http://cdn.baotingart.com/baotingart/spoil-things-by-excessive-enthusiasm/stbee-ring-1300x500.jpg
 

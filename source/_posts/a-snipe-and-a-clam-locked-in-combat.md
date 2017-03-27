@@ -1,6 +1,7 @@
 ---
 title: 鹬蚌相争
 date: 2017-03-16 16:22:45
+comments: false
 cover_index: http://cdn.baotingart.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic01-500x500.jpg
 cover_detail: http://cdn.baotingart.com/baotingart/a-snipe-and-a-clam-locked-in-combat/asaaclic-ring2-1300x500.jpg
 

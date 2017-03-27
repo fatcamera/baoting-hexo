@@ -1,6 +1,7 @@
 ---
 title: 约拿和尼尼微
 date: 2017-03-14 16:18:33
+comments: false
 cover_index: http://cdn.baotingart.com/baotingart/jonah-and-nineveh/jan06-500x500.jpg
 
 categories:

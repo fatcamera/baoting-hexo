@@ -1,6 +1,7 @@
 ---
 title: 找我
 date: 2017-03-20 13:40:23
+comments: false
 cover_index: http://cdn.baotingart.com/baotingart/find-me/fm11-500x500.jpg
 cover_detail: http://cdn.baotingart.com/baotingart/find-me/fm09-1300x500.jpg
 

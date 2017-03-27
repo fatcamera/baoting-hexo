@@ -1,6 +1,7 @@
 ---
 title: 鸟儿
 date: 2017-03-12 22:10:47
+comments: false
 cover_index: http://cdn.baotingart.com/baotingart/bird/bird-500x500.jpg
 
 categories:

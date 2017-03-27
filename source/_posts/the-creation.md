@@ -1,6 +1,7 @@
 ---
 title: 创造
 date: 2017-03-06 21:39:01
+comments: false
 cover_index: http://cdn.baotingart.com/baotingart/the-creation/tc04-500x500.jpg
 
 categories:

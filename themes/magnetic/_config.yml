@@ -17,6 +17,10 @@ favicon: http://cdn.baotingart.com/baotingart/static/favicon.ico
 appicon: http://cdn.baotingart.com/baotingart/static/appicon-192x192.png
 baidu_tongji: 3335afbcaebac61ab8c10f377a0928b5
 
+# comments
+comments: true
+gentie_key: f8606cf30e4247e6830be9bbef26af5b
+
 # Social Accounts
 weixin_url:
 weibo_url: http://weibo.com/imbaobaojia
